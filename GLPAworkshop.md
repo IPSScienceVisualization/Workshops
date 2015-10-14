@@ -18,7 +18,7 @@ To follow along with the session please bring a Windows laptop and install the s
 +  One the Web
 +  The Open Source transition
 +  The Future
-+  
+ 
 ####  Creating WWT Tours
 +  Slide Based Authoring
 +  Timeline based authoring
@@ -30,16 +30,18 @@ To follow along with the session please bring a Windows laptop and install the s
 +  Creating fulldome renders
 +  Running WWT in single fisheye or mirrordome systems
   +  Building your own dome
-+  Multi-projector setup and calibration
++  [Multi-projector setup and calibration](http://worldwidetelescope.org/Planetariums/)
 
 #### Adding Data to WWT
 +  Layers and Collections
-+  Importing images
++  [Importing images](http://worldwidetelescope.org/Developers/ImportImage)
+  +  with AVM tags
+  +  with astronometry.net
 +  Adding catalog data
   +  with Excel
-  +  with python and pyWWT, the data to dome tutorials
+  +  with python and pyWWT, [the data to dome tutorials](https://github.com/marksubbarao/pyWWT_AAS225)
 
 #### How to become a WWT Developer
 +  The GitHub environment
 +  Submitting issues and feature requests
-+  Getting in to the code
++  [Getting in to the code](https://github.com/WorldWideTelescope/wwt-windows-client)
