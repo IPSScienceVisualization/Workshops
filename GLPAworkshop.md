@@ -8,14 +8,14 @@ After the workshop please fill out this [survey](https://www.surveymonkey.com/r/
 
 Participants can participate as various levels everything from just watching to contributing to the open source development. 
 
-To follow along with the session please bring a Windows laptop and install the software described here.
+To follow along with the session please bring a Windows laptop and install the software described [here](https://github.com/IPSScienceVisualization/Workshops/blob/master/WWTsetup.md).
 
 
 ## Workshop agenda
 
 ####  Introduction to WWT
-+  How it works
-+  One the Web
++  About WWT
++  WWT and the Web
 +  The Open Source transition
 +  The Future
  
@@ -37,6 +37,7 @@ To follow along with the session please bring a Windows laptop and install the s
 +  [Importing images](http://worldwidetelescope.org/Developers/ImportImage)
   +  with AVM tags
   +  with astronometry.net
+  +  creating a web application
 +  Adding catalog data
   +  with Excel
   +  with python and pyWWT, [the data to dome tutorials](https://github.com/marksubbarao/pyWWT_AAS225)
