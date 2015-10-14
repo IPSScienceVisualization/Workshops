@@ -8,8 +8,8 @@ To Follow along please bring a Windows laptop with [WWT](http://worldwidetelesco
 +  Slide Based Authoring
 +  Timeline based authoring
 +  Creating exhibit kiosks
-..+  Kinect controller
-..+  Midi Controller
+..*  Kinect controller
+..*  Midi Controller
 
 #### WWT in the Planetarium
 +  Creating fulldome renders
