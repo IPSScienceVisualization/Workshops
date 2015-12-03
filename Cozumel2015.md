@@ -1,6 +1,6 @@
 # Data para Domo
 
-**Everyone please help translate this document **
+_Everyone please help translate this document_
 
 For this workshop we will be using GitHub and iPython notebooks
 
