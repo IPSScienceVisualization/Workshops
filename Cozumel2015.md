@@ -5,8 +5,9 @@ _Everyone please help translate this document_
 For this workshop we will be using GitHub and iPython notebooks
 
 **Using GitHub:**
+
 1.  Go to https://github.com and make an account
-1.  Fork the project
+2.  Fork the project
 2.  make changes (for example add Spanish translations to this document and the iPython notebooks)
 3.  submit a pull request
 4.  I will accept it and your changes will be incorporates
