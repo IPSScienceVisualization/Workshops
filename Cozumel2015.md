@@ -35,13 +35,11 @@ Now you are ready to load the notebooks for that we will be using for the tutori
 
 https://github.com/IPSScienceVisualization/python-tutorials
 
-I also have some platform dependent ones here:
+I also have some platform dependent ones here (more to come):
 
-WWT: https://github.com/marksubbarao/pyWWT_AAS225
-
-Uniview: https://github.com/marksubbarao/Uniview
-
-Digital Sky https://github.com/marksubbarao/DigitalSkyDM
+* WWT: https://github.com/marksubbarao/pyWWT_AAS225
+* Uniview: https://github.com/marksubbarao/Uniview
+* Digital Sky https://github.com/marksubbarao/DigitalSkyDM
 
 If you have any questions or problems with the above instructions please feel free to email me.
 
