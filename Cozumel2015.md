@@ -10,7 +10,7 @@ For this workshop we will be using GitHub and iPython notebooks
 2.  Fork the project
 2.  make changes (for example add Spanish translations to this document and the iPython notebooks)
 3.  submit a pull request
-4.  I will accept it and your changes will be incorporates
+4.  I will accept it and your changes will be incorporated into the repositrry
 
 
 We will be using iPython notebooks. A great description of this platform was written up recently in Nature: http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
@@ -18,6 +18,7 @@ We will be using iPython notebooks. A great description of this platform was wri
 No programming experience is necessary we will be providing templates for you to step through and modify.
 
 **Using iPython notebooks**
+
 you’ll need to setup python/iPython and some additional packages on your computer.
 Here is an easy way to do that:
 
