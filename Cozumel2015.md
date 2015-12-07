@@ -2,6 +2,12 @@
 
 _Everyone please help translate this document_
 
+Using GitHub:
+1. Fork the project
+2. make changes (for example add Spanish translations to this document and the iPython notebooks)
+3. submit a pull request
+4. I will accept it and your changes will be incorporates
+
 For this workshop we will be using GitHub and iPython notebooks
 
 We will be using iPython notebooks. A great description of this platform was written up recently in Nature: http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
@@ -18,11 +24,11 @@ Here is an easy way to do that:
 First Install the (free) Anaconda Scientific Python Distribution https://store.continuum.io/cshop/anaconda/ (this includes python, iPython notebooks and most of mathematical/scientific packages needed) 
 Next we need to install some additional packages that are used in the tutorials, we will do that from the command line.
 Open a terminal and install the packages with the following commands:
-...
+~~~
 pip install astroquery
 pip install pyWWT
 conda install seaborn
-...
+~~~
 Great you are ready to go! To start the notebook type “ipython notebook” on the command line.
 Now you are ready to load the notebooks for that we will be using for the tutorials, you can get them here:
 
