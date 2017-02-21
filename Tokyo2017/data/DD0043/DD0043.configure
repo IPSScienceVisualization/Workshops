@@ -1,0 +1,74 @@
+========================================================================
+make show-version
+========================================================================
+
+Mercurial Branch   week-of-code
+Mercurial Revision 7e5c719d5eb1
+
+========================================================================
+gmake show-config
+========================================================================
+
+   MACHINE: Darwin (OSX Lion)
+   MACHINE-NAME: grackle
+
+   PARAMETER_MAX_SUBGRIDS  [max-subgrids-###]                : 100000
+   PARAMETER_MAX_BARYONS  [max-baryons-###]                  : 30
+   PARAMETER_MAX_TASKS_PER_NODE  [max-tasks-per-node-###]    : 8
+   PARAMETER_MEMORY_POOL_SIZE  [memory-pool-###]             : 100000
+
+   CONFIG_PRECISION  [precision-{32,64}]                     : 64
+   CONFIG_PARTICLES  [particles-{32,64,128}]                 : 64
+   CONFIG_INTEGERS  [integers-{32,64}]                       : 64
+   CONFIG_PARTICLE_IDS  [particle-id-{32,64}]                : 64
+   CONFIG_INITS  [inits-{32,64}]                             : 64
+   CONFIG_IO  [io-{32,64}]                                   : 32
+   CONFIG_USE_MPI  [use-mpi-{yes,no}]                        : yes
+   CONFIG_OBJECT_MODE  [object-mode-{32,64}]                 : 64
+   CONFIG_TASKMAP  [taskmap-{yes,no}]                        : no
+   CONFIG_PACKED_AMR  [packed-amr-{yes,no}]                  : yes
+   CONFIG_PACKED_MEM  [packed-mem-{yes,no}]                  : no
+   CONFIG_LCAPERF  [lcaperf-{yes,no}]                        : no
+   CONFIG_PAPI  [papi-{yes,no}]                              : no
+   CONFIG_PYTHON  [python-{yes,no}]                          : no
+   CONFIG_NEW_PROBLEM_TYPES  [new-problem-types-{yes,no}]    : no
+   CONFIG_ECUDA  [cuda-{yes,no}]                             : no
+   CONFIG_OOC_BOUNDARY  [ooc-boundary-{yes,no}]              : no
+   CONFIG_ACCELERATION_BOUNDARY  [acceleration-boundary-{yes,no}]              : yes
+   CONFIG_OPT  [opt-{warn,debug,cudadebug,high,aggressive}]  : high
+   CONFIG_TESTING  [testing-{yes,no}]                        : no
+   CONFIG_TPVEL  [tpvel-{yes,no}]]                           : no
+   CONFIG_PHOTON  [photon-{yes,no}]                          : yes
+   CONFIG_HYPRE  [hypre-{yes,no}]                            : no
+   CONFIG_EMISSIVITY  [emissivity-{yes,no}]                  : no
+   CONFIG_USE_HDF4  [use-hdf4-{yes,no}]                      : no
+   CONFIG_NEW_GRID_IO  [newgridio-{yes,no}]                  : yes
+   CONFIG_BITWISE_IDENTICALITY  [bitwise-{yes,no}]           : no
+   CONFIG_FAST_SIB  [fastsib-{yes,no}]                       : yes
+   CONFIG_GRAVITY_4S  [gravity-4s-{yes,no}]                  : no
+   CONFIG_ENZO_PERFORMANCE  [enzo-performance-{yes,no}]      : yes
+
+========================================================================
+gmake show-flags
+========================================================================
+
+CPP = /usr/bin/cpp
+CC  = /usr/local/openmpi-1.6.3/bin/mpicc
+CXX = /usr/local/openmpi-1.6.3/bin/mpic++
+FC  = /usr/local/bin/gfortran
+F90 = /usr/local/bin/gfortran
+LD  = /usr/local/openmpi-1.6.3/bin/mpic++
+
+DEFINES = -DLINUX -DH5_USE_16_API -DOPTIMIZED_CTP -DEMBEDDED_PYTHON  -D__max_subgrids=100000 -D__max_baryons=30 -D__max_cpu_per_node=8 -D__memory_pool_size=100000 -DINITS64 -DLARGE_INTS -DCONFIG_PINT_8 -DIO_32    -DUSE_MPI   -DCONFIG_PFLOAT_8 -DCONFIG_BFLOAT_8  -DUSE_HDF5_GROUPS    -DTRANSFER   -DNEW_GRID_IO -DFAST_SIB      -DENZO_PERFORMANCE  -DSAB
+
+INCLUDES = -I/Users/britton/Documents/work/yt/yt-x86_64/include -I/usr/local/openmpi-1.6.3/include         -I.
+
+CPPFLAGS = -P -traditional 
+CFLAGS   =  -O2
+CXXFLAGS =  -O2
+FFLAGS   = -fno-second-underscore -O2
+F90FLAGS = -fno-second-underscore -O2
+LDFLAGS  =  -O2
+
+LIBS     = -L/Users/britton/Documents/work/yt/yt-x86_64/lib -lhdf5 -L/usr/local/lib -lgfortran       
+
