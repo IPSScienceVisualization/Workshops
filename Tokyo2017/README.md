@@ -1,6 +1,6 @@
 # The Data to Dome workshop, March 2-3, 2017
 
-This Documents contains contents for the IPS/NAOJ Data to Dome Workshop: http://prc.nao.ac.jp/fukyu/dtod/
+This Document contains content for the IPS/NAOJ Data to Dome Workshop: http://prc.nao.ac.jp/fukyu/dtod/
 
 It is still being Populated so please check back often as content is populated
 
