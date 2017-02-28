@@ -9,6 +9,7 @@ It is still being constructed so please check back often as content is populated
 * Tutorial: <a href=https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb> Volumetric Fisheye Rendering with yt </a>
 
 ### Workshop #2: Doug Roberts, Worldwide Telescope
+* <a href=http://wwtworkshops.org/?tribe_events=data-to-dome-noaj-march-2017> Workshop Content </a>
 
 ### Workshop #3: Carter Emmart, OpenSpace
 
