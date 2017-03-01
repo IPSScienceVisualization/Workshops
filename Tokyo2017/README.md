@@ -5,7 +5,7 @@ This Document contains content for the IPS/NAOJ Data to Dome Workshop: http://pr
 It is still being constructed so please check back often as content is populated
 
 ### Workshop #1: Mark SubbaRao, Data to Dome
-* Tutorial: [Visualizing astronomical catalogs in various space engines](href=https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Visualizing%20GAMA.ipynb) 
+* Tutorial: [Visualizing astronomical catalogs in various space engines](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Visualizing%20GAMA.ipynb) 
 * Tutorial: [Volumetric Fisheye Rendering with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb)  
 * Tutorial: [Programmable Graphics Shaders](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Using%20Graphics%20Shaders.ipynb)
 
