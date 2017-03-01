@@ -3,21 +3,19 @@
   <head>
   </head>
   <body>
-    <h1>KBOs</h1>
+    <h1>GWcatepillar</h1>
     <img src="thumbnail.jpg" class="uv_main_image"/>
     <p>
-      Kuiper Belt Objects. This collection was generated from the Minor Planet Center <a href=http://www.minorplanetcenter.net/iau/Unusual.html>distant object</a> lists: 'Transneptunian objects' and 'Centaurs and scattered disk objects', with a quality cut on the orbital observation arc (MPC parameter Opps. > 1, with the exception of 2013 RF98 which did not make that cut but was included). Note that this dataset includes classical Centaurs, but the default parameter cuts exclude them.<br>
-	  These tables were pulled and converted on January 21, 2016. The code and instructions for updating the data set is <a href=https://github.com/marksubbarao/Uniview/blob/master/MPC%20KBOs.ipynb>here</a>:
+      GWcatepillar:A conceptual animation illustrating how gravitational waves distort space. Created for Nergis' Mavalvala's Kavli lecture.
     </p>
     <p>
-      <h2>KBOparams</h2>
-      There are several variables to control the appearance and behaviour of this dataset. They are found in KBOparams.
+      <h2>Parameters</h2>
+      There are several variables to control the appearance and behaviour of this dataset.
 	  <ul>
-		<li>KBOAnimateDiscovery: set this to 1 to have the KBOs appear by discovery date. See Alex Parker's <a href=https://vimeo.com/96874127>Beyond Neptune</a> visualization for an example of this kind of animation.</li>
-		<li>KBOOrbits: set this to 1 to display the full orbit as a line</li>
-		<li>KBOOrbitsAlpha: set the alpha value for the orbit line. Alpha values are 'jittered' to allow for overdrawing with small values, see this <a href = https://marksubbarao.github.io/hubpress.io/2016/02/14/Jittered-alpha-values.html>blog post</a> for details. </li>
-		<li>KBORadius: controls the size of the KBO marker.</li>
-		<li>KBOMarkerType: sets the type of marker placed at the KBO position.
+		<li>GWcatRadius: the size of the markers</li>
+		<li>GWcatWaveFactor: the strength of the gravitational wave effect</li>
+		<li>GWcatMarkerAlpha: the opacity of the arkers </li>
+		<li>GWcatMarkerType: sets the type of marker.
 			<ol start='0'>
 			  <li>Gaussian</li>
 			  <li>soft circle with outline and center dot</li>
@@ -26,30 +24,19 @@
 			  <li>hard circle</li>
 			</ol>
 		</li>
-		<li>KBOSizeType: sets how the size is calculated for each KBO marker
-			<ol start='0'>
-			  <li>Uniform size</li>
-			  <li>Scaled according to an estimate of physical radius. Note this is only calculated from the H band absolute magnitude and does not include albedo effects. Because the large objects tend to be much brighter the size difference between small and large objects is likely to be exaggerated.</li>
-			</ol>
-			values between 0 and 1 smoothly mix the two size techniques, allowing for smooth animated transitions.
-		</li>
-		<li>KBOMarkerAlpha: sets the alpha value for the KBO marker.</li>
-		<li>KBOaCut: only display KBOs with semimajor radius greater than this value (in Astronomical Units).</li>
-		<li>KBOPeriCut: only display KBOs with perihelion greater than this value (in Astronomical Units).</li>
-		<li>KBOApCut: only display KBOs with aphelion less than this value (in Astronomical Units).</li>
-		<li>KBOiCut: only display KBOs with inclination greater than this value (in degrees).</li>
+		<li>GWcatLength: sets the number of rings in the cylinder. Goes from -25 to 25</li>
 	  </ul>
     </p>
     <p>
-      The module will appear as "KBOs" in the object tree, under Solar System.
+      The module will appear as "GWcatepillar" in the object tree, under /KavliLecture/Mavalvala.
     </p>
     <p>
       <h2>Version</h2>
-      2.0
+      1.0
     </p>
     <p>
       <h2>Created</h2>
-      12 February, 2016
+      10 July, 2016
     </p>
     <h2>Created By</h2>
     Mark SubbaRao<br/>

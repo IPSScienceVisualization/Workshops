@@ -1,5 +1,6 @@
 // Fragment shader for  Markers. A passed value (markerType) determines the type of marker drawn
 uniform float uv_fade;
+uniform float alpha;
 uniform float markerType;
 uniform float displayMode;
 in vec2 texcoord;
@@ -40,7 +41,5 @@ void main()
 			break;
 			}
 	}
-	if (highlight >0.0 && dist2 <1.0 && dist2 >0.8) {
-	  fragColor = fragColor +highlight*vec4(1.0,1.0,1.0,uv_fade);
-	}
+	fragColor.a*=alpha*uv_fade;
 }
