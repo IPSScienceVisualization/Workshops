@@ -10,6 +10,7 @@ I will present three tutorials during the workshop:
 * Tutorial: [Volumetric Fisheye Rendering with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb)  
 * Tutorial: [Programmable Graphics Shaders](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Using%20Graphics%20Shaders.ipynb)
 You can either clone(or download) this repository and run the code on your machine. Or if you are unable to get the programming environment set up locally, you can run the code remotely here: [jupyter.adlerplanetarium.org](http://jupyter.adlerplanetarium.org)
+
 ### Workshop #2: Doug Roberts, Worldwide Telescope
 * [Workshop Content](http://wwtworkshops.org/?tribe_events=data-to-dome-noaj-march-2017>)
 
