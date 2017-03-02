@@ -15,5 +15,7 @@ You can either clone(or download) this repository and run the code on your machi
 * [Workshop Content](http://wwtworkshops.org/?tribe_events=data-to-dome-noaj-march-2017>)
 
 ### Workshop #3: Carter Emmart, OpenSpace
+* [OpenSpace buildathon documentation](https://openspacenyc.splashthat.com/)
+* [Hyabusa Project DARTS](https://darts.isas.jaxa.jp/planet/project/hayabusa/spice.html)
 
 ### Workshop #4: Tsunehiko Kato, Gaia and Mitaka
