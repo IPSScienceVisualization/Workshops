@@ -8,7 +8,7 @@ For instructions on how on how to install the software packages used in these tu
 
 Beginning python/Jupyter notebook users should start with Tsunehiko Kato's Introduction tutorial since it provides an excellent introduction to working in this programming environment.
 
-### Tsunehiko Kato, Constructing a texture map from Gaia DR1 data
+### Tsunehiko Kato, Constructing a texture map from Gaia DR1 data (puthon/Jupyter notebook)
 1. [Introduction](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Introduction.ipynb) 
 2. [Download Gaia DR1 data](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/download_gaia_dr1.ipynb) 
 3. [Extracting the data](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/extract_data.ipynb) 
@@ -17,11 +17,11 @@ Beginning python/Jupyter notebook users should start with Tsunehiko Kato's Intro
 6. [Conversion from Cube Map to Sphere Map](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/cube_map_to_sphere_map.ipynb) 
 
 
-### Mark SubbaRao, Data to Dome
+### Mark SubbaRao, Data to Dome (python/Jupyter notebook)
 I will present three tutorials during the workshop:
-* Tutorial: [Visualizing astronomical catalogs in various space engines](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Visualizing%20GAMA.ipynb) 
-* Tutorial: [Volumetric Domemaster Rendering with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb)  
-* Tutorial: [Using Programmable Graphics Shaders](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Using%20Graphics%20Shaders.ipynb)
+* Tutorial 1: [Visualizing astronomical catalogs in various space engines](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Visualizing%20GAMA.ipynb) 
+* Tutorial 2: [Volumetric Domemaster Rendering with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb)  
+* Tutorial 3: [Using Programmable Graphics Shaders](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Using%20Graphics%20Shaders.ipynb)
 
 The Uniview Bundle demoing the programmable graphics shaders is available in this repository as well.
 
@@ -29,14 +29,14 @@ If you are unable to get the programming environment set up locally, you can run
 
 ### Hirotaka Nakayama, Data Visualization with Unity
 * [Simple Data Viewer Unity Tutorial](https://github.com/sizima/SimpleDataViewer)
-* [EQTANT Free, An excellent stiching/conversion tool (http://sizima.com/EQTANT.html#EQTANT)
+* [EQTANT Free], An excellent stiching/conversion tool (http://sizima.com/EQTANT.html#EQTANT)
 
 ### Doug Roberts, Worldwide Telescope
 * [Workshop Content](http://wwtworkshops.org/?tribe_events=data-to-dome-noaj-march-2017>)
 
 ### Carter Emmart, OpenSpace
 * [OpenSpace buildathon documentation](https://openspacenyc.splashthat.com/)
-* [Hyabusa Project DARTS](https://darts.isas.jaxa.jp/planet/project/hayabusa/spice.html)
+* [DARTS: Hyabusa Project Science Data Archive](https://darts.isas.jaxa.jp/planet/project/hayabusa/spice.html)
 
 
 
