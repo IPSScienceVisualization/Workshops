@@ -31,13 +31,18 @@ The Uniview bundle demoing the programmable graphics shaders is available in thi
 If you are unable to get the programming environment set up locally, you can run the code remotely here: [jupyter.adlerplanetarium.org](http://jupyter.adlerplanetarium.org). This was set up for the workshop and I make no promises on how long this link will be live.
 
 ### Hirotaka Nakayama, Data Visualization with Unity
+The video for this workshop session is [here:](http://www.youtube.com/watch?v=NO4iiRdXXt0&t=4h38m25s)
 * [Simple Data Viewer Unity Tutorial](https://github.com/sizima/SimpleDataViewer)
 * [EQTANT Free], An excellent stiching/conversion tool (http://sizima.com/EQTANT.html#EQTANT)
 
 ### Doug Roberts, Worldwide Telescope
+The video wor this workshop session is [here:](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=1h17m8s)
+
 * [WWT Workshop Content](http://wwtworkshops.org/?tribe_events=data-to-dome-noaj-march-2017>)
 
 ### Carter Emmart, OpenSpace
+The video for this workshop session is [here:](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=2h30m10s)
+
 * [OpenSpace buildathon documentation](https://openspacenyc.splashthat.com/)
 * [DARTS: Hyabusa Project Science Data Archive](https://darts.isas.jaxa.jp/planet/project/hayabusa/spice.html)
 
