@@ -9,6 +9,8 @@ For instructions on how on how to install the software packages used in these tu
 Beginning python/Jupyter notebook users should start with Tsunehiko Kato's Introduction tutorial since it provides an excellent introduction to working in this programming environment.
 
 ### Tsunehiko Kato, Constructing a texture map from Gaia DR1 data (python/Jupyter notebook)
+The video for this workshop session is [here](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=4h36m27s)
+
 1. [Introduction](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Introduction.ipynb) 
 2. [Download Gaia DR1 data](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/download_gaia_dr1.ipynb) 
 3. [Extracting the data](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/extract_data.ipynb) 
