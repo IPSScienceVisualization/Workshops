@@ -18,7 +18,7 @@ Beginning python/Jupyter notebook users should start with Tsunehiko Kato's Intro
 
 
 ### Mark SubbaRao, Data to Dome (python/Jupyter notebook)
-The video of the workshop session is [here](http://www.youtube.com/watch?v=N6RDqBWzqt4&t=9m15s)
+The video of the workshop session is [here]
 I will present three tutorials during the workshop:
 * Tutorial 1: [Visualizing astronomical catalogs in various space engines](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Visualizing%20GAMA.ipynb) 
 * Tutorial 2: [Volumetric Domemaster Rendering with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb)  
