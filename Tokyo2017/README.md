@@ -34,7 +34,7 @@ If you are unable to get the programming environment set up locally, you can run
 
 ### Hirotaka Nakayama, Data Visualization with Unity
 The video for this workshop session is [here:](http://www.youtube.com/watch?v=NO4iiRdXXt0&t=4h38m25s)
-The presentation is [here](http://prc.nao.ac.jp/fukyu/dtod/pdf/w4.pdf)
+
 * [Simple Data Viewer Unity Tutorial](https://github.com/sizima/SimpleDataViewer)
 * [EQTANT Free], An excellent stiching/conversion tool (http://sizima.com/EQTANT.html#EQTANT)
 
