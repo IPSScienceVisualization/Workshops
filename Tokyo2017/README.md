@@ -9,7 +9,8 @@ For instructions on how on how to install the software packages used in these tu
 Beginning python/Jupyter notebook users should start with Tsunehiko Kato's Introduction tutorial since it provides an excellent introduction to working in this programming environment.
 
 ### Tsunehiko Kato, Constructing a texture map from Gaia DR1 data (python/Jupyter notebook)
-The video for this workshop session is [here](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=4h36m27s)
+The video for this workshop session is [here](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=4h36m27s).
+The presentation is [here](http://prc.nao.ac.jp/fukyu/dtod/pdf/w4.pdf)
 
 1. [Introduction](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Introduction.ipynb) 
 2. [Download Gaia DR1 data](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/download_gaia_dr1.ipynb) 
@@ -21,6 +22,7 @@ The video for this workshop session is [here](https://www.youtube.com/watch?v=N6
 
 ### Mark SubbaRao, Data to Dome (python/Jupyter notebook)
 The video of the workshop session is [here](http://www.youtube.com/watch?v=N6RDqBWzqt4&t=9m15s)
+The presentation is [here](http://prc.nao.ac.jp/fukyu/dtod/pdf/w1.pdf)
 
 * Tutorial 1: [Visualizing astronomical catalogs in various space engines](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Visualizing%20GAMA.ipynb) 
 * Tutorial 2: [Volumetric Domemaster Rendering with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb)  
@@ -32,16 +34,19 @@ If you are unable to get the programming environment set up locally, you can run
 
 ### Hirotaka Nakayama, Data Visualization with Unity
 The video for this workshop session is [here:](http://www.youtube.com/watch?v=NO4iiRdXXt0&t=4h38m25s)
+The presentation is [here](http://prc.nao.ac.jp/fukyu/dtod/pdf/w4.pdf)
 * [Simple Data Viewer Unity Tutorial](https://github.com/sizima/SimpleDataViewer)
 * [EQTANT Free], An excellent stiching/conversion tool (http://sizima.com/EQTANT.html#EQTANT)
 
 ### Doug Roberts, Worldwide Telescope
-The video wor this workshop session is [here:](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=1h17m8s)
+The video for this workshop session is [here:](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=1h17m8s)
+The presentation is [here](http://prc.nao.ac.jp/fukyu/dtod/pdf/w2.pdf)
 
 * [WWT Workshop Content](http://wwtworkshops.org/?tribe_events=data-to-dome-noaj-march-2017>)
 
 ### Carter Emmart, OpenSpace
 The video for this workshop session is [here:](https://www.youtube.com/watch?v=N6RDqBWzqt4&t=2h30m10s)
+The presentation is [here](http://prc.nao.ac.jp/fukyu/dtod/pdf/w3.pdf)
 
 * [OpenSpace buildathon documentation](https://openspacenyc.splashthat.com/)
 * [DARTS: Hyabusa Project Science Data Archive](https://darts.isas.jaxa.jp/planet/project/hayabusa/spice.html)
