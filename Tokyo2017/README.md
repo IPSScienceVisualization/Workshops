@@ -8,10 +8,11 @@ There are two main pathways for creating visualization inside the planetarium. O
 
 ## Rendered Planetarium Visualization Examples
 
-There is a standard format for planetarium content known as the domemaster. This is a square image with a circular image inscribed. The projection is an eequal angle azimuthal projection usually covering 180 degrees. For these examples we will utilize visualization
-* [Volumetric rendering of simulation data with yt](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb) yt is an open-source, permissively-licensed python package for analyzing and visualizing volumetric data. It supports a wide variety of computational simulation formats. This notebook shows you how to load an example cosmological simulation, construct a transfer function, and volumetrically render a domemaster frame.
+The standard format for planetarium content known as the *domemaster*. This is a square image with a circular image inscribed. The projection is an equal angle azimuthal projection usually covering 180 degrees. For these examples we will utilize visualization that includes domemaster rendering functionality.
+* [Volumetric rendering of simulation data with yt.](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb) yt is an open-source, permissively-licensed python package for analyzing and visualizing volumetric data. It supports a wide variety of computational simulation formats. This Jupyter notebook shows you how to load an example cosmological simulation, construct a transfer function, and volumetrically render a domemaster frame.
+* [Visualizing Event Data with Worldwide Telescope](). This tutorial 
 
-The Uniview bundle demoing the programmable graphics shaders is available in this repository as well.
+
 
 If you are unable to get the programming environment set up locally, you can run the code remotely here: [jupyter.adlerplanetarium.org](http://jupyter.adlerplanetarium.org). This was set up for the workshop and I make no promises on how long this link will be live.
 
