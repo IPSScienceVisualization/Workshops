@@ -1,0 +1,1 @@
+<ParticleTable><Columns><AddField data="ra" type="RA" /><AddField data="dec" type="DEC" /><AddField data="name" type="LABEL" /><AddField data="distance" type="DIST" /><AddField data="major_axis" /><AddField data="byDES" /></Columns></ParticleTable>

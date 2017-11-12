@@ -1,0 +1,1578 @@
+# Default set of dwarf characterisitcs.
+# All dwarfs should appear in this file.
+# $Id: dwarfs.yaml,v 1.14 2015/09/01 09:26:35 kadrlica Exp $
+bootes_I:
+  name:         'Bootes I'
+  abbreviation: 'Boo I'
+  codename:     'bootes_I'
+  nickname:     'BootesI'
+  color:        'blue'
+  ra: 210.025
+  dec: 14.500
+  #l: 358.1
+  #b: 69.6
+  distance: 66.
+  dsigma: 2.
+  major_axis: 12.60 # arcmin
+  ellipticity: 0.39
+  refs: \citep{DallOra:2006pt}
+  #jvalue: 5.01e17
+  #jsigma: 0.34
+  profiles:
+    point: 
+      jvalue   : 18.77
+      jsigma   : 0.22
+      extension: 0
+    nfw:   
+      jvalue   : 18.77
+      jsigma   : 0.22
+      extension: -0.64 # 0.22 +0.24/-0.12
+      extsigma : 0.31
+    burkert: 
+      jvalue   : 18.65
+      jsigma   : 0.17
+      extension: -1.11 # 0.08 +0.05/-0.03
+      extsigma : 0.19
+
+bootes_II:
+  name:         'Bootes II'
+  abbreviation: 'Boo II'
+  codename:     'bootes_II'
+  nickname:     'BootesII'
+  color:        'mediumblue'
+  ra: 209.50
+  dec: 12.85
+  #l: 353.7
+  #b: 68.9
+  distance: 42.
+  dsigma: 1.
+  major_axis: 4.20 # arcmin
+  ellipticity: 0.21
+  refs: "--"
+  jvalue: .nan  #null
+  jsigma: .nan  #null
+  profiles:
+    point:      
+      jvalue   : 19.05 # Photo-J
+      jsigma   : 0.4 
+      extension: 0
+      extsigma : .nan
+    nfw:   
+      jvalue   : 19.05 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : .nan
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+      extsigma : .nan
+
+bootes_III:
+  name:         'Bootes III'
+  abbreviation: 'Boo III'
+  codename:     'bootes_III'
+  nickname:     'BootesIII'
+  color:        'darkblue'
+  ra: 209.30 
+  dec: 26.8
+  #l: 35.4
+  #b: 75.4
+  distance: 47.
+  dsigma: 2.
+  major_axis: .nan
+  ellipticity: 0.50
+  refs: "--"
+  profiles:
+    point: 
+      jvalue   : 18.96 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+      extsigma : .nan
+    nfw:   
+      jvalue   : 18.96 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : .nan
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+      extsigma : .nan
+
+canes_venatici_I:
+  name:         'Canes Venatici I'
+  abbreviation: 'CVn I'
+  codename:     'canes_venatici_I'
+  nickname:     'CVnI'
+  color:        'dodgerblue'
+  ra: 202.01458
+  dec: 33.55583
+  #l: 74.3
+  #b: 79.8
+  distance: 218.
+  dsigma: 10.
+  major_axis: 8.90
+  ellipticity: 0.39
+  refs: \citep{Simon:2007dq}
+  profiles:
+    point: 
+      jvalue   : 17.66
+      jsigma   : 0.26
+      extension: 0
+    nfw:   
+      jvalue   : 17.66
+      jsigma   : 0.26
+      extension: -1.27 # 0.05 +0.04/-0.02
+      extsigma : 0.22
+    burkert: 
+      jvalue   : 17.62
+      jsigma   : 0.17
+      extension: -1.62 # 0.02 +0.01/-0.01
+      extsigma : 0.13
+
+canes_venatici_II:
+  name:         'Canes Venatici II'
+  abbreviation: 'CVn II'
+  codename:     'canes_venatici_II'
+  nickname:     'CVnII'
+  color:        'steelblue'
+  ra: 194.29167
+  dec: 34.32083
+  #l: 113.6
+  #b: 82.7
+  distance: 160.
+  dsigma: 4.
+  major_axis: 1.60
+  ellipticity: 0.52
+  refs: \citep{Simon:2007dq}
+  profiles:
+    point: 
+      jvalue   : 17.86
+      jsigma   : 0.25
+      extension: 0
+    nfw:   
+      jvalue   : 17.86
+      jsigma   : 0.25
+      extension: -1.15 # 0.07 +0.12/-0.04
+      extsigma : 0.43
+    burkert: 
+      jvalue   : 17.78
+      jsigma   : 0.19
+      extension: -1.63 # 0.02 +0.02/-0.01
+      extsigma : 0.25
+
+canis_major:
+  name:         'Canis Major'
+  abbreviation: 'CMa'
+  codename:     'canis_major'
+  nickname:     'CMajor'
+  color:        'SlateBlue'
+  ra: 108.14583
+  dec: -27.6667
+  #l: 240.0
+  #b: -8.0
+  distance: 7.
+  dsigma: 1.
+  major_axis: .nan
+  ellipticity: 0.80
+  refs: "--"
+  profiles:
+    point: 
+      jvalue   : 20.61 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 20.61 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+
+carina:
+  name:         'Carina'
+  abbreviation: 'Car'
+  codename:     'carina'
+  nickname:     'Carina'
+  color:        'mediumslateblue'
+  ra: 100.4029
+  dec: -50.966
+  #l: 260.1
+  #b: -22.2
+  distance: 105.
+  dsigma: 6.
+  major_axis: 8.20 # arcmin
+  ellipticity: 0.33 
+  refs: \citep{Walker:2008ax}
+  #jvalue: 1.0e18
+  #jsigma: .13
+  profiles:
+    point: 
+      jvalue   : 18.12
+      jsigma   : 0.23
+      extension: 0
+    nfw:   
+      jvalue   : 18.12
+      jsigma   : 0.23
+      extension: -1.03 # 0.09 +0.12/-0.05
+      extsigma : 0.35
+    burkert: 
+      jvalue   : 18.14
+      jsigma   : 0.16
+      extension: -1.49 # 0.03 +0.01/-0.01
+      extsigma : 0.13
+
+coma_berenices:
+  name:         'Coma Berenices'
+  abbreviation: 'Com'
+  codename:     'coma_berenices'
+  nickname:     'Coma'
+  color:        'green'
+  ra: 186.74583
+  dec: 23.90417
+  #l: 241.9
+  #b: 83.6
+  distance: 44.
+  dsigma: 4.
+  major_axis: 6.0
+  ellipticity: 0.38
+  refs: \citep{Simon:2007dq}
+  #jvalue: 1.e19 
+  #jsigma: 0.37
+  profiles:
+    point: 
+      jvalue   : 18.96
+      jsigma   : 0.25
+      extension: 0
+    nfw:   
+      jvalue   : 18.96
+      jsigma   : 0.25
+      extension: -0.63 # 0.23 +0.43/-0.15
+      extsigma : 0.45
+    burkert: 
+      jvalue   : 18.86
+      jsigma   : 0.21
+      extension: -1.14 # 0.07 +0.06/0.03
+      extsigma : 0.26
+
+draco:
+  name:         'Draco'
+  abbreviation: 'Dra'
+  codename:     'draco'
+  nickname:     'Draco'
+  color:        'chartreuse'
+  ra: 260.05167
+  dec: 57.91528
+  #l: 86.4
+  #b: 34.7
+  distance: 76.
+  dsigma: 6.
+  major_axis: 10.00
+  ellipticity: 0.31
+  refs: \FIXME{[ ?]}
+  #jvalue: 6.31e18
+  #jsigma: 0.13
+  profiles:
+    point: 
+      jvalue   : 18.83
+      jsigma   : 0.16
+      extension: 0
+    nfw:   
+      jvalue   : 18.83
+      jsigma   : 0.16
+      extension: -0.59 # 0.26 +0.20/-0.11
+      extsigma : 0.25
+    burkert: 
+      jvalue   : 18.68
+      jsigma   : 0.17
+      extension: -0.99 # 0.11 +0.05/-0.03
+      extsigma : 0.16
+
+fornax:
+  name:         'Fornax'
+  abbreviation: 'For'
+  codename:     'fornax'
+  nickname:     'Fornax'
+  color:        'magenta'
+  ra: 39.997
+  dec: -34.449
+  #l: 237.1
+  #b: -65.7
+  distance: 147.
+  dsigma: 12.
+  major_axis: 16.60
+  ellipticity: 0.30
+  refs: \citep{Walker:2008ax}
+  #jvalue: 5.01e17
+  #jsigma: 0.23
+  profiles:
+    point: 
+      jvalue   : 18.16
+      jsigma   : 0.21
+      extension: 0
+    nfw:   
+      jvalue   : 18.16
+      jsigma   : 0.21
+      extension: -0.76 # 0.17 +0.10/-0.07
+      extsigma : 0.21
+    burkert: 
+      jvalue   : 18.13
+      jsigma   : 0.22
+      extension: -1.15 # 0.07 +0.03/-0.02
+      extsigma : 0.14
+
+hercules:
+  name:         'Hercules'
+  abbreviation: 'Her'
+  codename:     'hercules'
+  nickname:     'Hercules'
+  color:        'orchid'
+  ra: 247.75833
+  dec: 12.79167
+  #l: 28.7
+  #b: 36.9
+  distance: 132.
+  dsigma: 12.
+  major_axis: 8.60
+  ellipticity: 0.68
+  refs: \citep{Simon:2007dq}
+  profiles:
+    point: 
+      jvalue   : 18.05
+      jsigma   : 0.25
+      extension: 0
+    nfw:   
+      jvalue   : 18.05
+      jsigma   : 0.25
+      extension: -1.09 # 0.08 +0.11/-0.05
+      extsigma : 0.37
+    burkert: 
+      jvalue   : 17.94
+      jsigma   : 0.19
+      extension: -1.59 # 0.03 +0.02/-0.01
+      extsigma : 0.20
+
+leo_I:
+  name:         'Leo I'
+  abbreviation: 'Leo I'
+  codename:     'leo_I'
+  nickname:     'LeoI'
+  color:        'gold'
+  ra: 152.11708
+  dec: 12.30639
+  #l: 226.0
+  #b: 49.1
+  distance: 254.
+  dsigma: 15.
+  major_axis: 3.40
+  ellipticity: 0.21
+  refs: \citep{Mateo:2007xh}
+  profiles:
+    point: 
+      jvalue   : 17.67
+      jsigma   : 0.18
+      extension: 0
+    nfw:   
+      jvalue   : 17.67
+      jsigma   : 0.18
+      extension: -1.07 # 0.09 +0.09/-0.04
+      extsigma : 0.31
+    burkert: 
+      jvalue   : 17.59
+      jsigma   : 0.17
+      extension: -1.54 # 0.03 +0.02/-0.01
+      extsigma : 0.21
+
+leo_II:
+  name:         'Leo II'
+  abbreviation: 'Leo II'
+  codename:     'leo_II'
+  nickname:     'LeoII'
+  color:        'goldenrod'
+  ra: 168.37
+  dec: 22.15167
+  #l: 220.2
+  #b: 67.2
+  distance: 233.
+  dsigma: 14.
+  major_axis: 2.60
+  ellipticity: 0.13
+  refs: \citep{Koch:2007ye}
+  profiles:
+    point: 
+      jvalue   : 17.56
+      jsigma   : 0.18
+      extension: 0
+    nfw:   
+      jvalue   : 17.56
+      jsigma   : 0.18
+      extension: -1.15 # 0.07 +0.14/-0.05
+      extsigma : 0.47
+    burkert: 
+      jvalue   : 17.49
+      jsigma   : 0.15
+      extension: -1.93 # 0.02 +0.03/-0.01
+      extsigma : 0.50
+
+leo_IV:
+  name:         'Leo IV'
+  abbreviation: 'Leo IV'
+  codename:     'leo_IV'
+  nickname:     'LeoIV'
+  color:        '#C58917'
+  ra: 173.23750  #Error in McConnachie Table 2
+  dec: -0.53333
+  #l: 265.4
+  #b: 56.5
+  distance: 154.
+  dsigma: 6.
+  major_axis: 4.60
+  ellipticity: 0.49
+  refs: \citep{Simon:2007dq}
+  profiles:
+    point: 
+      jvalue   : 17.90
+      jsigma   : 0.28
+      extension: 0
+    nfw:   
+      jvalue   : 17.90
+      jsigma   : 0.28
+      extension: -1.14 # 0.07 +0.11/-0.04
+      extsigma : 0.41
+    burkert: 
+      jvalue   : 17.80
+      jsigma   : 0.21
+      extension: -1.62 # 0.02 +0.02/-0.01
+      extsigma : 0.23
+
+#ADW: NOT LOCAL GROUP
+leo_T:
+  name:         'Leo T'
+  abbreviation: 'Leo T'
+  codename:     'leo_T'
+  nickname:     'LeoT'
+  color:        'gold2'
+  ra: 143.7225
+  dec: 17.05139
+  #l: 214.9
+  #b: 43.7
+  distance: 417.
+  dsigma: 19.
+  major_axis: 0.99
+  ellipticity: 0.0
+  refs: "--"
+  jvalue: 
+  jsigma: 
+  profiles:
+    point: 
+      jvalue   : 17.23
+      jsigma   : 0.22
+      extension: 0
+    nfw:   
+      jvalue   : 17.23
+      jsigma   : 0.22
+      extension: -1.45 # 0.04 +0.03/-0.02
+      extsigma : 0.27
+    burkert: 
+      jvalue   : 17.07
+      jsigma   : 0.22
+      extension: -1.90 # 0.01 +0.01/-0.004
+      extsigma : 0.18
+
+leo_V:
+  name:         'Leo V'
+  abbreviation: 'Leo V'
+  codename:     'leo_V'
+  nickname:     'LeoV'
+  color:        'Peru'
+  ra: 172.790
+  dec: 2.220
+  #l: 261.9
+  #b: 58.5
+  distance: 178.
+  dsigma: 10.
+  major_axis: 2.6
+  ellipticity: 0.5
+  refs: "--"
+  profiles:
+    point: 
+      jvalue   : 17.80 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 17.80 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+
+lmc:
+  name:         'LMC'
+  abbreviation: 'LMC'
+  codename:     'lmc'
+  nickname:     'LMC'
+  color:        'Peru'
+  ra: 80.89375
+  dec: -69.7561
+  #l: 280.5
+  #b: -32.9
+  distance: 51.
+  dsigma: 2.
+  major_axis: 322 # From NED (half diameter)
+  ellipticity:  0.15
+  refs: "--"
+  profiles:
+    point: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: 0
+    nfw:   
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+
+pisces_II:
+  name:         'Pisces II'
+  abbreviation: 'Psc II'
+  codename:     'pisces_II'
+  nickname:     'PscII'
+  color:        'chocolate'
+  ra: 344.62917
+  dec: 5.9525
+  #l: 79.2
+  #b: -47.1
+  distance: 182.
+  dsigma: .nan
+  major_axis: 1.10
+  ellipticity: 0.40
+  refs: "--"
+  profiles:
+    point: 
+      jvalue   : 17.78 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 17.78 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+ 
+sagittarius:
+  name:         'Sagittarius'
+  abbreviation: 'Sgr'
+  codename:     'sagittarius'
+  nickname:     'Sagittarius'
+  color:        'BlueViolet'
+  ra: 283.831
+  dec: -30.5453
+  #l: 5.6
+  #b: -14.2
+  distance: 26.
+  dsigma: 2.
+  major_axis: 342.0
+  ellipticity: 0.64
+  refs: \citep{Frinchaboy:2012ur}
+  #profiles:
+  #  point: 
+  #    jvalue   : 19.6
+  #    jsigma   : 0.37
+  #    extension: 0
+  #  nfw:   
+  #    jvalue   : 19.6
+  #    jsigma   : 0.37
+  #    extension: 1.00 # 1.00 +0.66/-0.40
+  #  burkert: 
+  #    jvalue   : .nan
+  #    jsigma   : .nan
+  #    extension: .nan
+
+  # Photometric J-values
+  profiles:
+    point: 
+      jvalue   : 19.47 # Photo-J
+      jsigma   : 0.4
+      extension: .nan
+    nfw:   
+      jvalue   : 19.47 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+
+
+sculptor:
+  name:         'Sculptor'
+  abbreviation: 'Scl'
+  codename:     'sculptor'
+  nickname:     'Sculptor'
+  color:        'sienna'
+  ra: 15.039
+  dec: -33.709
+  #l: 287.5
+  #b: -83.2
+  distance: 86.
+  dsigma: 6.
+  major_axis: 11.30
+  ellipticity: 0.32
+  refs: \citep{Walker:2008ax}
+  #jvalue: 2.51e18
+  #jsigma: 0.13
+  profiles:
+    point: 
+      jvalue   : 18.61
+      jsigma   : 0.18
+      extension: 0
+    nfw:   
+      jvalue   : 18.61
+      jsigma   : 0.18
+      extension: -0.60 # 0.25 +0.25/-0.13
+      extsigma : 0.30
+    burkert: 
+      jvalue   : 18.53
+      jsigma   : 0.17
+      extension: -1.05 # 0.09 +0.05/-0.03
+      extsigma : 0.20
+ 
+segue_1:
+  name:         'Segue 1'
+  abbreviation: 'Seg 1'
+  codename:     'segue_1'
+  nickname:     'Segue1'
+  color:        'tomato'
+  ra: 151.76667
+  dec: 16.08194
+  #l: 220.5
+  #b: 50.4
+  distance: 23.
+  dsigma: 2.
+  major_axis: 4.40
+  ellipticity: 0.48
+  refs: \citep{Simon:2010ek}
+  #jvalue: 3.98e19
+  #jsigma: 0.53
+  jvalue: 
+  jsigma: 
+  profiles:
+    point: 
+      jvalue   : 19.51
+      jsigma   : 0.29
+      extension: 0
+    nfw:   
+      jvalue   : 19.51
+      jsigma   : 0.29
+      extension: -0.44 # 0.36 +0.68/-0.24
+      extsigma : 0.46
+    burkert: 
+      jvalue   : 19.39
+      jsigma   : 0.24
+      extension: -0.95 # 0.11 +0.09/-0.05
+      extsigma : 0.25
+
+segue_2:
+  name:         'Segue 2'
+  abbreviation: 'Seg 2'
+  codename:     'segue_2'
+  nickname:     'Segue2'
+  color:        'darkorange'
+  ra: 34.81667
+  dec: 20.17528
+  #l: 149.4
+  #b: -38.1
+  distance: 35.
+  dsigma: 2.
+  major_axis: 3.40
+  ellipticity: 0.15
+  refs: \citep{Kirby:2013isa}
+  #profiles:
+  #  point: 
+  #    jvalue   : 19.0454
+  #    jsigma   : 0.309405
+  #    extension: 0
+  #  nfw:   
+  #    jvalue   : 19.0454
+  #    jsigma   : 0.309405
+  #    extension: 0.32 # 0.32 +0.56/-0.20
+  #  burkert: 
+  #    jvalue   : 19.08
+  #    jsigma   : 0.24
+  #    extension: 0.08 # 0.08 +0.08/-0.04
+
+  # Photometric J-values
+  profiles:
+    point: 
+      jvalue   : 19.21 # Photo-J
+      jsigma   : 0.4
+      extension: .nan
+    nfw:   
+      jvalue   : 19.21 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+
+sextans:
+  name:         'Sextans'
+  abbreviation: 'Sex'
+  codename:     'sextans'
+  nickname:     'Sextans'
+  color:        'silver'
+  ra: 153.2625
+  dec: -1.61472
+  #l: 243.5
+  #b: 42.3
+  distance: 86.
+  dsigma: 4.
+  major_axis: 27.80
+  ellipticity: 0.35
+  refs: \citep{Walker:2008ax}
+  profiles:
+    point: 
+      jvalue   : 18.38
+      jsigma   : 0.27
+      extension: 0
+    nfw:   
+      jvalue   : 18.38
+      jsigma   : 0.27
+      extension: -0.90 # 0.13 +0.07/-0.04
+      extsigma : 0.19
+    burkert: 
+      jvalue   : 18.35
+      jsigma   : 0.16
+      extension: -1.20 # 0.06 +0.02/-0.01
+      extsigma : 0.11
+
+smc:
+  name:         'SMC'
+  abbreviation: 'SMC'
+  codename:     'smc'
+  nickname:     'SMC'
+  color:        'Peru'
+  ra: 13.186667
+  dec: -72.82861
+  #l: 302.8
+  #b: -44.3
+  distance: 64.
+  dsigma: 4.
+  major_axis: 160 # From NED (half diameter)
+  ellipticity: 0.42
+  refs: "--"
+  profiles:
+    point: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: 0
+    nfw:   
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+    burkert: 
+      jvalue   : .nan
+      jsigma   : .nan
+      extension: .nan
+    gnfw:   
+      jvalue   : 18.77
+      jsigma   : 0.22
+      extension: -0.64 
+      extsigma : 0.31
+      shape :
+        alpha : 1.0
+        beta : 3.0
+        gamma : 1.0
+
+ursa_major_I:
+  name:         'Ursa Major I'
+  abbreviation: 'UMa I'
+  codename:     'ursa_major_I'
+  nickname:     'UMajorI'
+  color:        'purple'
+  ra: 158.72
+  dec: 51.92
+  #l: 159.4
+  #b: 54.4
+  distance: 97.
+  dsigma: 4.
+  major_axis: 11.30
+  ellipticity: 0.80
+  refs: \citep{Simon:2007dq}
+  profiles:
+    point: 
+      jvalue   : 18.33
+      jsigma   : 0.24
+      extension: 0
+    nfw:   
+      jvalue   : 18.33
+      jsigma   : 0.24
+      extension: -0.97 # 0.11 +0.13/-0.06
+      extsigma : 0.34
+    burkert: 
+      jvalue   : 18.23
+      jsigma   : 0.18
+      extension: -1.42 # 0.04 +0.02/-0.01
+      extsigma : 0.17
+
+ursa_major_II:
+  name:         'Ursa Major II'
+  abbreviation: 'UMa II'
+  codename:     'ursa_major_II'
+  nickname:     'UMajorII'
+  color:        'indigo'
+  ra: 132.875
+  dec: 63.130
+  #l: 152.5
+  #b: 37.4
+  distance: 32.
+  dsigma: 4.
+  major_axis: 16.00
+  ellipticity: 0.63
+  refs: \citep{Simon:2007dq}
+  #jvalue: 3.98e19
+  #jsigma: 0.40
+  profiles:
+    point: 
+      jvalue   : 19.28
+      jsigma   : 0.28
+      extension: 0
+    nfw:   
+      jvalue   : 19.28
+      jsigma   : 0.28
+      extension: -0.49 # 0.32 +0.42/-0.18
+      extsigma : 0.36
+    burkert: 
+      jvalue   : 19.19
+      jsigma   : 0.21
+      extension: -0.94 # 0.11 +0.05/-0.04
+      extsigma : 0.20
+
+ursa_minor:
+  name:         'Ursa Minor'
+  abbreviation: 'UMi'
+  codename:     'ursa_minor'
+  nickname:     'UMinor'
+  color:        'red'
+  ra: 227.2854
+  dec: 67.2225
+  #l: 105.0
+  #b: 44.8
+  distance: 76.
+  dsigma: 3.
+  major_axis: 8.20
+  ellipticity: 0.56
+  refs: \citep{Munoz:2005be}
+  #jvalue: 3.16e18 # PRL
+  #jsigma: 0.18    # PRL
+  profiles:
+    point: 
+      jvalue   : 18.80
+      jsigma   : 0.19
+      extension: 0
+    nfw:   
+      jvalue   : 18.80
+      jsigma   : 0.19
+      extension: -0.46 # 0.35 +0.26/-0.15
+      extsigma : 0.24
+    burkert: 
+      jvalue   : 18.69
+      jsigma   : 0.20
+      extension: -0.87 # 0.13 +0.06/-0.04
+      extsigma : 0.16
+
+willman_1: 
+  name: 'Willman 1' 
+  abbreviation: 'Wil 1' 
+  codename: 'willman_1' 
+  nickname: 'Willman1' 
+  color: 'cyan' 
+  ra: 162.3375 
+  dec: 51.050
+  #l: 158.6
+  #b: 56.8
+  distance: 38.
+  dsigma: 7.
+  major_axis: 2.30
+  ellipticity: 0.47
+  refs: \citep{Willman:2010gy}
+  profiles:
+    point: 
+      jvalue   : 19.11
+      jsigma   : 0.31
+      extension: 0
+    nfw:   
+      jvalue   : 19.11
+      jsigma   : 0.31
+      extension: -0.60 # 0.25 +0.46/-0.16
+      extsigma : 0.45
+    burkert: 
+      jvalue   : 18.99
+      jsigma   : 0.28
+      extension: -1.12 # 0.07 +0.06/-0.03
+      extsigma : 0.24
+
+eridanus_II:
+  name:         'Eridanus II'
+  abbreviation: 'Eri II'
+  codename:     'eridanus_II'
+  nickname:     'EriII'
+  color:        'crimson'
+  ra: 56.09
+  dec: -43.53
+  distance: 331.1
+  dsigma: 30.
+  major_axis: 1.80
+  ellipticity: 0.19
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 17.26
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 17.26
+      jsigma   : 0.4
+      extension: -1.52
+      extsigma : 0.36
+
+tucana_II:
+  name:         'Tucana II'
+  abbreviation: 'Tuc II'
+  codename:     'tucana_II'
+  nickname:     'TucII'
+  color:        'royalblue'
+  ra: 343.06
+  dec: -58.57
+  distance: 57.5
+  dsigma: 8.
+  major_axis: 7.20
+  ellipticity: .nan
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.78 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.78 # Photo-J
+      jsigma   : 0.4
+      extension: -0.72
+      extsigma : 0.36
+
+
+horologium_I:
+  name:         'Horologium I'
+  abbreviation: 'Hor I'
+  codename:     'horologium_I'
+  nickname:     'HorI'
+  color:        'tan'
+  ra: 43.87
+  dec: -54.11
+  distance: 87.1
+  dsigma: 8.
+  major_axis: 2.40
+  ellipticity: .nan
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.42 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.42 # Photo-J
+      jsigma   : 0.4
+      extension: -0.89 
+      extsigma : 0.36
+
+des_j2108.8-5109:
+  name:         'DES J2108.8-5109 (Kim 2)'
+  abbreviation: 'DESJ2108'
+  codename:     'des_j2108.8-5109'
+  nickname:     'Kim 2'
+  color:        'indianred'
+  ra: 317.20
+  dec: -51.16
+  distance: 69.2
+  dsigma: 7.
+  major_axis: 0.60
+  ellipticity: .nan
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.62 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.62 # Photo-J
+      jsigma   : 0.4
+      extension: -0.79
+      extsigma : 0.36
+
+      
+pictoris_I:
+  name:         'Pictoris I'
+  abbreviation: 'Pic I'
+  codename:     'pictoris_I'
+  nickname:     'PicI'
+  color:        'saddlebrown'
+  ra: 70.95
+  dec: -50.28
+  distance: 125.9
+  dsigma: 12.
+  major_axis: 1.20
+  ellipticity: .nan
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.10 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.10 # Photo-J
+      jsigma   : 0.4
+      extension: -1.05
+      extsigma : 0.36
+
+phoenix_II:
+  name:         'Phoenix II'
+  abbreviation: 'Phe II'
+  codename:     'phoenix_II'
+  nickname:     'PheII'
+  color:        'indigo'
+  ra: 354.99
+  dec: -54.41
+  distance: 95.5
+  dsigma: 10.
+  major_axis: 1.20
+  ellipticity: .nan
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.34 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.34 # Photo-J
+      jsigma   : 0.4
+      extension: -0.92
+      extsigma : 0.36
+
+eridanus_III:
+  name:         'Eridanus III'
+  abbreviation: 'EriIII'
+  codename:     'eridanusIII'
+  nickname:     'EriIII'
+  color:        'slategrey'
+  ra: 35.69
+  dec: -52.28
+  distance: 95.5
+  dsigma: 10.
+  major_axis: 0.42 
+  ellipticity: .nan
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.34 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.34 # Photo-J
+      jsigma   : 0.4
+      extension: -0.92 # 0.32 +0.42/-0.18
+      extsigma : 0.36
+      
+grus_I:
+  name:         'Grus I'
+  abbreviation: 'Gru I'
+  codename:     'grus_I'
+  nickname:     'GruI'
+  color:        'purple'
+  ra: 344.18
+  dec: -50.16
+  distance: 120
+  dsigma: 12
+  major_axis: 2.23
+  ellipticity: 0.41
+  refs: \citep{1503.02079}
+  profiles:
+    point: 
+      jvalue   : 18.14 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.14 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+      
+horologium_II:
+  name:         'Horologium II'
+  abbreviation: 'Hor II'
+  codename:     'horologium_II'
+  nickname:     'HorII'
+  color:        'gold'
+  ra: 49.13
+  dec: -50.02
+  distance: 78
+  dsigma: 8.
+  major_axis: 2.09
+  ellipticity: 0.52
+  refs: \citep{1505.04948}
+  profiles:
+    point: 
+      jvalue   : 18.52 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.52 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+pegasus_III:
+  name:         'Pegasus III'
+  abbreviation: 'Peg III'
+  codename:     'pegasus_III'
+  nickname:     'PegIII'
+  color:        'black'
+  ra: 336.09
+  dec: 5.42
+  distance: 205
+  dsigma: 20.
+  major_axis: 1.30
+  ellipticity: 0.46
+  refs: \citep{1503.08268}
+  profiles:
+    point: 
+      jvalue   : 17.68 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 17.68 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+hydra_II:
+  name:         'Hydra II'
+  abbreviation: 'Hya II'
+  codename:     'hydra_II'
+  nickname:     'HyaII'
+  color:        'dodgerblue'
+  ra: 185.43
+  dec: -31.99
+  distance: 134
+  dsigma: 10
+  major_axis: 1.70
+  ellipticity: 0.01
+  refs: \citep{1503.06216}
+  profiles:
+    point: 
+      jvalue   : 18.05 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.05 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+reticulum_II:
+  name:         'Reticulum II'
+  abbreviation: 'Ret II'
+  codename:     'reticulum_II'
+  nickname:     'RetII'
+  color:        'violet'
+  ra: 53.92
+  dec: -54.05
+  distance: 31.6
+  dsigma: 3.
+  major_axis: 6.00
+  ellipticity: 0.6
+  refs: \citep{1503.02584}
+  profiles:
+    point: 
+      jvalue   : 18.9
+      jsigma   : 0.6
+      extension: 0
+    nfw:   
+      jvalue   : 18.9
+      jsigma   : 0.6
+      extension: -0.46
+      extsigma : 0.36
+
+horologium_I:
+  name:         'Horologium I'
+  abbreviation: 'Hor I'
+  codename:     'horologium_I'
+  nickname:     'HorI'
+  color:        'tan'
+  ra: 43.87
+  dec: -54.11
+  distance: 87.1
+  dsigma: 8.
+  major_axis: 2.40
+  ellipticity: .nan
+  refs: \citep{}
+  profiles:
+    point: 
+      jvalue   : 18.4
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.4
+      jsigma   : 0.4
+      extension: -0.89 
+      extsigma : 0.36
+      
+triangulum_II:
+  name:         'Triangulum II'
+  abbreviation: 'Tri II'
+  codename:     'triangulum_II'
+  nickname:     'TriII'
+  color:        'darkblue'
+  ra: 33.32
+  dec: 36.18
+  distance: 30.0
+  dsigma: 2.
+  major_axis: 3.90
+  ellipticity: 0.21
+  refs: \citep{1503.05554}
+  profiles:
+    point: 
+      jvalue   : 19.35 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 19.35 # Photo-J
+      jsigma   : 0.4
+      extension: -0.46
+      extsigma : 0.36
+
+laevens_3:
+  name:         'Laevens 3'
+  abbreviation: 'Lae 3'
+  codename:     'laevens_3'
+  nickname:     'Lae3'
+  color:        'dodgerblue'
+  ra: 316.726
+  dec: 14.98
+  distance: 67
+  dsigma: 3
+  major_axis: 0.40
+  ellipticity: 0.21
+  refs: \citep{1507.07564}
+  profiles:
+    point: 
+      jvalue   : 18.65 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.65 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+draco_II:
+  name:         'Draco II'
+  abbreviation: 'Dra II'
+  codename:     'draco_II'
+  nickname:     'DraII'
+  color:        'dodgerblue'
+  ra: 238.198
+  dec: 64.565
+  distance: 20
+  dsigma: 3
+  major_axis: 2.70
+  ellipticity: 0.24
+  refs: \citep{1507.07564}
+  profiles:
+    point: 
+      jvalue   : 19.70 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 19.70 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+sagittarius_II:
+  name:         'Sagittarius II'
+  abbreviation: 'Sgr II'
+  codename:     'sagittarius_II'
+  nickname:     'SgrII'
+  color:        'dodgerblue'
+  ra: 298.169    
+  dec: -22.068
+  distance: 67
+  dsigma: 5
+  major_axis: 2.00
+  ellipticity: 0.23
+  refs: \citep{1507.07564}
+  profiles:
+    point: 
+      jvalue   : 18.65 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.65 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+kim_2:
+  name:         'Kim 2'
+  abbreviation: 'Kim2'
+  codename:     'kim_2'
+  nickname:     'Kim2'
+  color:        'indianred'
+  ra: 317.20
+  dec: -51.16
+  distance: 104.7
+  dsigma: 7.
+  major_axis: 0.42
+  ellipticity: 0.12
+  refs: \citep{1502.03952}
+  profiles:
+    point: 
+      jvalue   : 18.26 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.26 # Photo-J
+      jsigma   : 0.4
+      extension: -0.79
+      extsigma : 0.36
+
+tucana_III:
+  name:         'Tucana III'
+  abbreviation: 'Tuc III'
+  codename:     'tucana_III'
+  nickname:     'TucIII'
+  color:        'red'
+  ra: 359.15
+  dec: -59.60
+  distance: 25.
+  dsigma: 2.
+  major_axis: 6.00
+  ellipticity: .nan
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 19.50 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 19.50 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+tucana_IV:
+  name:         'Tucana IV'
+  abbreviation: 'Tuc IV'
+  codename:     'tucana_IV'
+  nickname:     'TucIV'
+  color:        'green'
+  ra: 0.73
+  dec: -60.85
+  distance: 48.
+  dsigma: 4.
+  major_axis: 11.80
+  ellipticity: 0.40
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 18.94 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.94 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+tucana_V:
+  name:         'Tucana V'
+  abbreviation: 'Tuc V'
+  codename:     'tucana_V'
+  nickname:     'TucV'
+  color:        'blue'
+  ra: 354.35
+  dec: -63.27
+  distance: 55.
+  dsigma: 9.
+  major_axis: 1.80
+  ellipticity: 0.70
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 18.82 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.82 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+      
+columba_I:
+  name:         'Columba I'
+  abbreviation: 'Col I'
+  codename:     'columba_I'
+  nickname:     'ColI'
+  color:        'gray'
+  ra: 82.86
+  dec: -28.03
+  distance: 182
+  dsigma: 18.
+  major_axis: 1.90
+  ellipticity: .nan
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 17.78 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 17.78 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+grus_II:
+  name:         'Grus II'
+  abbreviation: 'Gru II'
+  codename:     'grus_II'
+  nickname:     'GruII'
+  color:        'magenta'
+  ra: 331.02
+  dec: -46.44
+  distance: 53.
+  dsigma: 5.
+  major_axis: 6.0
+  ellipticity: 0.0
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 18.85 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.85 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+reticulum_III:
+  name:         'Reticulum III'
+  abbreviation: 'Ret III'
+  codename:     'reticulum_III'
+  nickname:     'RetIII'
+  color:        'red'
+  ra: 56.36
+  dec: -60.45
+  distance: 92
+  dsigma: 13.
+  major_axis: 2.40
+  ellipticity: .nan
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 18.37 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 18.37 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+      
+indus_II:
+  name:         'Indus II'
+  abbreviation: 'Ind II'
+  codename:     'indus_II'
+  nickname:     'IndII'
+  color:        'indigo'
+  ra: 309.72
+  dec: -46.16
+  distance: 214
+  dsigma: 16.
+  major_axis: 2.90
+  ellipticity: .nan
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 17.64 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 17.64 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+cetus_II:
+  name:         'Cetus II'
+  abbreviation: 'Cet II'
+  codename:     'cetus_II'
+  nickname:     'CetII'
+  color:        'cyan'
+  ra: 19.47
+  dec: -17.42
+  distance: 30
+  dsigma: 3.
+  major_axis: 1.9
+  ellipticity: .nan
+  refs: \citep{1508.03622}
+  profiles:
+    point: 
+      jvalue   : 19.35 # Photo-J
+      jsigma   : 0.4
+      extension: 0
+    nfw:   
+      jvalue   : 19.35 # Photo-J
+      jsigma   : 0.4
+      extension: -0.5
+      extsigma : 0.3
+
+      
+# NED object query names
+#bootes I
+#bootes II
+#bootes III
+#canes venatici I dsph
+#canes venatici II dsph
+#canis major
+#carina
+#coma berenices
+#draco
+#fornax dwarf spheroidal
+#hercules dsph
+#leo I
+#leo II
+#leo IV
+#leo V
+#leo T
+#pisces II
+#sagittarius dwarf spheroidal
+#sculptor dwarf spheroidal
+#segue 1
+#segue 2
+#sextans dwarf spheroidal
+#ursa major I
+#ursa major II
+#ursa minor
+#willman 1
