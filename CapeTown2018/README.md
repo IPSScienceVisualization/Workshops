@@ -6,8 +6,10 @@ There are two main pathways for creating visualization inside the planetarium. O
 
 ## Real-time DigitalSky Dark Matter Planetarium Data Visualization Examples
 
+The following Jupyter notebooks create the files necessary to visualize data inside the Dark Matter software. The Dark Matter Asset bundle is also included in this repository.
+
 * [GalaxyZoo](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/GalaxyZoo%20visualized%20in%20DigitalSky.ipynb) In this example we will show how to import catalog data into DigitalSky Dark matter using the catalog of GalaxyZoo classifications.
-* [Dark Energy Survey dwarf galaxy discoveries](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/DES%20Dwarfs.ipynb) One of the advantages of visualizing datasets inside plabnetarium software such as Dark Matter, is the fact that it comes with the rest of the Universe already included. Here we will visualize a catalog of Milky Way dwarfs in the context of a beautiful volumetric MilkyWay galaxy.
+* [Dwarf galaxies](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/DES%20Dwarfs.ipynb) One of the advantages of visualizing datasets inside planetarium software such as Dark Matter, is the fact that it comes with the rest of the Universe already included. Here we will visualize a catalog of Milky Way dwarf galaxy companions in the context of a beautiful volumetric MilkyWay galaxy. This notebook also prepares simulation data for the Sagittarius Dwarf. 
 
 ## Rendered Planetarium Visualization Examples
 
