@@ -4,21 +4,19 @@ The [Iziko Planetarium and Digital Dome](https://www.iziko.org.za/museums/planet
 
 There are two main pathways for creating visualization inside the planetarium. One is to pre-render content (either images or videos) and diaplay that on the planetarium dome. The other is to display data using the software installed on the planetarium cluster. Both clusters have SkySkan's [Digital Sky Dark Matter software](https://www.skyskan.com/products/ds) installed. In the near future we plan to install [OpenSpace](http://openspaceproject.com/) and [Worldwide Telescope](http://worldwidetelescope.org/webclient/) on the research cluster. 
 
-## Real-time Planetarium Data Visualization Examples
+## Real-time DigitalSky Dark Matter Planetarium Data Visualization Examples
 
-* GalaxyZoo Datasets In this example we will show how to import catalog data into DigitalSky Dark matter using the catalog of GalaxyZoo classifications.
-* Dark Energy Survey dwarf galaxy discoveries. One of the advantages of visualizing datasets inside plabnetarium software such as Dark Matter, is the fact that it comes with the rest of the Universe already included. Here we will visualize a catalog of Milky Way dwarfs in the context of a beautiful volumetric MilkyWay galaxy.
+* [GalaxyZoo](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/GalaxyZoo%20visualized%20in%20DigitalSky.ipynb) In this example we will show how to import catalog data into DigitalSky Dark matter using the catalog of GalaxyZoo classifications.
+* [Dark Energy Survey dwarf galaxy discoveries](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/DES%20Dwarfs.ipynb) One of the advantages of visualizing datasets inside plabnetarium software such as Dark Matter, is the fact that it comes with the rest of the Universe already included. Here we will visualize a catalog of Milky Way dwarfs in the context of a beautiful volumetric MilkyWay galaxy.
 
 ## Rendered Planetarium Visualization Examples
 
-The standard format for planetarium content known as the *domemaster*. This is a square image with a circular image inscribed. The projection is an equal angle azimuthal projection usually covering 180 degrees. For these examples we will utilize visualization that includes domemaster rendering functionality. The Iziko Planetarium has a native resolution of about 6,500 pixels across half a great. Content is rendered ideally at 8,192x8,192 (8K), although lower resolution content can be played back as well. Low resolution video content (3K? need to test) can be played back as a single file. Higher resolution content needs to be sliced and encoded into seperate movies for each computer to play back.
+The standard format for planetarium content known as the *domemaster*. This is a square frame with a circular image inscribed. The projection is an equal angle azimuthal projection usually covering 180 degrees. For these examples we will utilize visualization that includes domemaster rendering functionality. The Iziko Planetarium has a native resolution of about 6,500 pixels across half a great. Content is rendered ideally at 8,192x8,192 (8K), although lower resolution content can be played back as well. Low resolution video content (3K? need to test) can be played back as a single file. Higher resolution content needs to be sliced and encoded into seperate movies for each computer to play back.
 
 * [Volumetric rendering of simulation data with yt.](https://github.com/IPSScienceVisualization/Workshops/blob/master/Tokyo2017/Volumetric%20Fisheye%20Rendering%20with%20yt.ipynb) yt is an open-source, permissively-licensed python package for analyzing and visualizing volumetric data. It supports a wide variety of computational simulation formats. This Jupyter notebook shows you how to load an example cosmological simulation, construct a transfer function, and volumetrically render a domemaster frame.
-* [Visualizing Event Data with Worldwide Telescope](). In this example we'll use a Jupyter notebook to pull the Fermi Gamma ray Burst catalog from the CDS using the Astroquery interface to Vizier. After some manipulations we send the data to the Windows client version of WWT using the pyWWT package. In WWT we then build a simple tour playing the GRBs back in time with the Fermi maqp in the background. The WWT tour is then rendered to a domemaster frame sequence which can be encoded to aq video (or sliced for higher resolution playback).
+* [Visualizing Event Data with Worldwide Telescope](). In this example we'll use a Jupyter notebook to pull the Fermi Gamma ray Burst catalog from the CDS using the Astroquery interface to Vizier. After some manipulations we send the data to the Windows client version of WWT using the pyWWT package. In WWT we then build a simple tour playing the GRBs back in time with the Fermi maqp in the background. The WWT tour is then rendered to a domemaster frame sequence which can be encoded to a video (or sliced for higher resolution playback).
 
-
-
-If you are unable to get the programming environment set up locally, you can run the code remotely here: [jupyter.adlerplanetarium.org](http://jupyter.adlerplanetarium.org). This was set up for the workshop and I make no promises on how long this link will be live.
+## Here are some additional examples of data visualization in the planetarium from the NAOJ/IPS Data to Dome Workshop
 
 ### Hirotaka Nakayama, Data Visualization with Unity
 The video for this workshop session is [here:](http://www.youtube.com/watch?v=NO4iiRdXXt0&t=4h38m25s)
