@@ -1,0 +1,1 @@
+<ParticleTable><Columns><AddField data="ra_h" type="RA" /><AddField data="dec" type="DEC" /><AddField data="dist" type="DIST" /><AddField data="p_el" /><AddField data="p_cw" /><AddField data="p_mg" /></Columns></ParticleTable>
