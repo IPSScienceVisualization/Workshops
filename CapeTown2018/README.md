@@ -10,7 +10,7 @@ The following Jupyter notebooks create the files necessary to visualize data ins
 
 * [GalaxyZoo](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/GalaxyZoo%20visualized%20in%20DigitalSky.ipynb) In this example we will show how to import catalog data into DigitalSky Dark matter using the catalog of GalaxyZoo classifications.
 * [Dwarf galaxies](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/DES%20Dwarfs.ipynb) One of the advantages of visualizing datasets inside planetarium software such as Dark Matter, is the fact that it comes with the rest of the Universe already included. Here we will visualize a catalog of Milky Way dwarf galaxy companions in the context of a beautiful volumetric MilkyWay galaxy. This notebook also prepares simulation data for the Sagittarius Dwarf. 
-* [Volume Rendering of a Large Scale Structure Density Field]() In this notebook, we will import a 3D density field from the 2Mpp survey and convert it into a volumetric .dds texture, which can be imported into Dark Matter. The data file we are using comes from this [site](http://cosmicflows.iap.fr/download.html), where it is stored as a numpy array
+* [Volume Rendering of a Large Scale Structure Density Field](https://github.com/IPSScienceVisualization/Workshops/blob/master/CapeTown2018/2MppVolumetric.ipynb) In this notebook, we will import a 3D density field from the 2Mpp survey and convert it into a volumetric .dds texture, which can be imported into Dark Matter. The data file we are using comes from this [site](http://cosmicflows.iap.fr/download.html), where it is stored as a numpy array
 
 ## Rendered Planetarium Visualization Examples
 
